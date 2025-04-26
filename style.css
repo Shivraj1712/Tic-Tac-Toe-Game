@@ -1,0 +1,83 @@
+/* Setting padding and margin 0 */
+*{
+    margin:0;
+    padding:0;
+}
+/* Designing the background */
+body{
+    background-color: #B0DAF1;
+    text-align: center;
+    background-image: url("download.png");
+    background-size: cover;
+}
+/* Logo */
+h1{
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: arial,robotoo;
+}
+/* Outer container */
+.container{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Flexbox Containing all the boxes and designing them */
+.game{
+    height:65vmin;
+    width:65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:3vmin;
+}
+/* Designing each box */
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size:9vmin;
+    color:#222222;
+}
+/* Adding animation to each box */
+.box:hover{
+    transform: scale(1.1);
+}
+/* Formatting Reset Button */
+#resetbutton{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #00b2ff;
+    color: whitesmoke;
+    border:none;
+    border-radius:1rem;
+    margin-bottom: 4rem;
+}
+/* Formatting New Game Button */
+#newbutton{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: #00b2ff;
+    color: whitesmoke;
+    border:none;
+    border-radius:1rem;
+    margin-top: 2rem;
+}
+/* Adding Animations to Reset and New Game Button */
+#newbutton:hover,#resetbutton:hover{
+    transform: scale(1.1);
+}
+/* Designing the Message Display on getting Game result */
+#msg,#msg1{
+    color: #004d40;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 25vmin;
+}
+/* CODE ENDS */
